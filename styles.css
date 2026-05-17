@@ -79,43 +79,15 @@ nav {
 }
 
 .logo-mark {
-  width: 42px;
-  height: 42px;
-  background: var(--navy);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-mark span {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--white);
-  letter-spacing: 1px;
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-}
-
-.logo-text strong {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--navy);
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-
-.logo-text small {
-  font-family: "Barlow", sans-serif;
-  font-size: 10px;
-  color: var(--tan);
-  letter-spacing: 1px;
-  text-transform: uppercase;
+.logo-mark img {
+    width: 100%;
+    height: auto;
 }
 
 nav ul {
