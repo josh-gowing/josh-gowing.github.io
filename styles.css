@@ -76,6 +76,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 14px;
+  height: 100%;
 }
 
 .logo-mark {
