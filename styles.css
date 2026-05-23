@@ -269,7 +269,7 @@ nav ul a:hover {
 
 .hero-right-label {
     font-family: "Barlow", sans-serif;
-    font-size: 10.5px;
+    font-size: 11.5px;
     font-weight: 500;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -318,7 +318,7 @@ nav ul a:hover {
 
 .pillar-content p {
     font-family: "Barlow", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.42);
     line-height: 1.55;
@@ -711,7 +711,7 @@ nav ul a:hover {
 
 .sector-item p {
     font-family: "Barlow", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     color: var(--text-light);
     line-height: 1.65;
@@ -790,11 +790,13 @@ nav ul a:hover {
 
 .point-num {
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 13px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--tan-light);
-    opacity: 0.5;
+    opacity: 0.4;
+    line-height: 1;
     padding-top: 2px;
+    min-width: 28px;
 }
 
 .point-body h4 {
@@ -807,7 +809,7 @@ nav ul a:hover {
 
 .point-body p {
     font-family: "Barlow", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.38);
     line-height: 1.6;
@@ -1323,7 +1325,7 @@ nav ul a:hover {
 
 /* ── Footer ── */
 footer {
-    background: var(--navy);
+    background: var(--tan-pale);
     border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
 
@@ -1339,11 +1341,11 @@ footer {
 /* ── Shared column label ── */
 .footer-col-label {
     font-family: 'Barlow', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--tan-light);
+    color: var(--navy);
     opacity: 0.65;
     margin-bottom: 20px;
 }
@@ -1363,9 +1365,9 @@ footer {
 
 .footer-tagline {
     font-family: 'Barlow', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.28);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(26, 43, 60, 0.28);
     line-height: 1.7;
     max-width: 210px;
 }
@@ -1373,9 +1375,9 @@ footer {
 /* ── Col 2: Contact info ── */
 .footer-address {
     font-family: 'Barlow', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.42);
+    color: rgba(26, 43, 60, 0.42);
     line-height: 1.8;
     margin-bottom: 22px;
 }
@@ -1394,18 +1396,18 @@ footer {
 
 .contact-region {
     font-family: 'Barlow', sans-serif;
-    font-size: 9.5px;
+    font-size: 11.5px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.22);
+    color: rgba(26, 43, 60, 0.22);
 }
 
 .footer-contact-item a {
     font-family: 'Barlow', sans-serif;
-    font-size: 13.5px;
+    font-size: 15.5px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.52);
+    color: rgba(26, 43, 60, 0.52);
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -1424,22 +1426,22 @@ footer {
 
 .hours-day {
     font-family: 'Barlow', sans-serif;
-    font-size: 12.5px;
+    font-size: 14.5px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.42);
+    color: rgba(26, 43, 60, 0.42);
     white-space: nowrap;
 }
 
 .hours-time {
     font-family: 'Barlow', sans-serif;
-    font-size: 12.5px;
+    font-size: 14.5px;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.28);
+    color: rgba(26, 43, 60, 0.4);
     text-align: right;
 }
 
 .hours-time.closed {
-    color: rgba(255, 255, 255, 0.18);
+    color: rgba(26, 43, 60, 0.3);
     font-style: italic;
 }
 
@@ -1460,22 +1462,22 @@ footer {
 
 .footer-links a {
     font-family: 'Barlow', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.38);
+    color: rgba(26, 43, 60, 0.38);
     text-decoration: none;
     letter-spacing: 0.2px;
     transition: color 0.2s;
 }
 
 .footer-links a:hover {
-    color: rgba(255, 255, 255, 0.72);
+    color: rgba(26, 43, 60, 0.72);
 }
 
 /* ── Bottom bar ── */
 .footer-bottom {
     padding: 20px 64px;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(26, 43, 60, 0.05);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1483,8 +1485,8 @@ footer {
 
 .footer-copy {
     font-family: 'Barlow', sans-serif;
-    font-size: 11.5px;
-    color: rgba(255, 255, 255, 0.2);
+    font-size: 13.5px;
+    color: rgba(26, 43, 60, 0.35);
     letter-spacing: 0.2px;
     text-align: center;
 }
